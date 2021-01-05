@@ -12,6 +12,6 @@ class CashRegister
     item.times do
       items << item
     end
-    self.price = price * item
+    self.price = cost * item
   end
 end
