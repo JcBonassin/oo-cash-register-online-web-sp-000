@@ -1,2 +1,2 @@
-class Cash_register
+class CashRegister
 end
