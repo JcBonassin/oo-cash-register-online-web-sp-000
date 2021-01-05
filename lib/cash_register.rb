@@ -8,7 +8,7 @@ class CashRegister
   end
 
   def add_item(product, cost, quantity=1)
-    self.total += cost * quantity
+    self.total += @cost * quantity
     quantity.times do
       items << product
     end
@@ -24,7 +24,7 @@ class CashRegister
   end
 
   def void_last_transaction
-    self.total = self.total - cost * quantity
+    self.total = self.total - @cost * quantity
   end
 
 end
