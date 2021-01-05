@@ -7,12 +7,5 @@ class CashRegister
     @items = []
   end
 
-  def add_item (item= 1, cost, title)
-    @cost = cost
-    @total += cost * item
-    item.times do
-      items << title
-    end
-    self.price = cost * item
-  end
+  
 end
