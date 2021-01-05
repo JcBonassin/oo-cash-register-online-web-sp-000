@@ -7,5 +7,5 @@ class CashRegister
     @items = []
   end
 
-  
+
 end
