@@ -7,5 +7,10 @@ class CashRegister
     @items = []
   end
 
+  def add_item(product, cost, quantity=1)
+    self.total += cost * quantity
+    quantity.times do
+      items << product
+    end
 
 end
