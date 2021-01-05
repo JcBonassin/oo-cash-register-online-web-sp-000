@@ -15,4 +15,3 @@ class CashRegister
     self.price = price * item
   end
 end
- 
