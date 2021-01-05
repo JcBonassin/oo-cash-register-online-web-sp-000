@@ -13,6 +13,6 @@ class CashRegister
       items << item
     end
     self.price = price * item
-    end
   end
 end
+end 
